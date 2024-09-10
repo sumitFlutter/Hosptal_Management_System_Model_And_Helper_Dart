@@ -1,5 +1,5 @@
 class DesignationModal{
-  int? id;
+  String? id;
   dynamic designation;
 
   DesignationModal({this.id, this.designation});

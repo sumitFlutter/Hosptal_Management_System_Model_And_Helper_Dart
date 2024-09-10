@@ -1,5 +1,4 @@
-class ReportsTypesModal {
-  int? id;
+class ReportsTypesModal {String? id;
   dynamic reportsTypes;
 
   ReportsTypesModal({this.id, this.reportsTypes});

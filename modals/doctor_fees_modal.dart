@@ -1,5 +1,5 @@
 class DoctorFeesModal {
-  int? id;
+  String? id;
   dynamic checkupPrice;
 
   DoctorFeesModal({this.id, this.checkupPrice});

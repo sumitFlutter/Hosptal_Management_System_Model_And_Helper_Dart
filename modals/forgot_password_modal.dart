@@ -1,5 +1,5 @@
 class ForgotPasswordModal {
-  int? id, user;
+  String? id, user;
   dynamic email, password, contact;
 
   ForgotPasswordModal(

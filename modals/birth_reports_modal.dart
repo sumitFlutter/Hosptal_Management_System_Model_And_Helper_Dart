@@ -1,5 +1,5 @@
 class BirthReportsModal {
-  int? id, hospitalDetails, doctorName, nurseName, userName;
+  String? id, hospitalDetails, doctorName, nurseName, userName;
   dynamic babyWeight, gender, fatherName, date, time, babyName;
 
   BirthReportsModal(
@@ -24,8 +24,8 @@ class BirthReportsModal {
       babyWeight: m1["babyweight"],
       doctorName: m1["doctorname"],
       fatherName: m1["fathername"],
-      gender: m1["hospitaldetails"],
-      hospitalDetails: m1["gender"],
+      gender: m1["gender"],
+      hospitalDetails: m1["hospitaldetails"],
       nurseName: m1["nursename"],
       userName: m1["username"],
     );

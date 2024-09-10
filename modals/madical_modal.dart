@@ -1,5 +1,5 @@
 class MedicalModal {
-  int? id, mTypes;
+  String? id, mTypes;
   dynamic mName, mCompany, mPrice;
 
   MedicalModal({this.id, this.mTypes, this.mName, this.mCompany, this.mPrice});

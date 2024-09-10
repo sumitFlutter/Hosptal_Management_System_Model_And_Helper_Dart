@@ -1,5 +1,5 @@
 class LoginModal {
-  int? id, designation;
+  String? id, designation;
   dynamic name, email, password, mobile;
 
   LoginModal(
@@ -16,7 +16,7 @@ class LoginModal {
       name: m1["name"],
       email: m1["email"],
       password: m1["password"],
-      mobile: m1["password"],
+      mobile: m1["mobile"],
       designation: m1["designation"],
     );
   }

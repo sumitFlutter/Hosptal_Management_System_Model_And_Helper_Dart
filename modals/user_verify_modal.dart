@@ -1,5 +1,5 @@
 class UserVerifyModal {
-  int? id, verify, isSuccess;
+  String? id, verify, isSuccess;
 
   UserVerifyModal({this.id, this.verify, this.isSuccess});
 

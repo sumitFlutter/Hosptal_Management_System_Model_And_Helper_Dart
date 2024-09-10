@@ -1,5 +1,5 @@
 class Accounting {
-  int? id;
+  String? id;
   dynamic transection, date, time, cashPayment, ePayment;
 
   Accounting(

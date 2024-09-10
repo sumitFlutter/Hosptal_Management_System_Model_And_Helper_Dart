@@ -1,5 +1,5 @@
 class RoomsModal {
-  int? id, price;
+  String? id, price;
   dynamic roomType;
 
   RoomsModal({this.id, this.price, this.roomType});

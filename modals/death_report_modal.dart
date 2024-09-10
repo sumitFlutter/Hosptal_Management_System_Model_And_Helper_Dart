@@ -1,5 +1,5 @@
 class DeathReportModal {
-  int? id, age, doctorName, nurseName, hospitalDetails;
+  String? id, age, doctorName, nurseName, hospitalDetails;
   dynamic name, gender, disease, surgery, deathTime, deathDate;
 
   DeathReportModal(

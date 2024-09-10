@@ -1,5 +1,5 @@
 class ReceptionistModal {
-  int? id, age;
+  String? id, age;
   dynamic name, experiance, gender, mobile, email, image, password;
 
   ReceptionistModal(

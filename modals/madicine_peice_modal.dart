@@ -1,5 +1,5 @@
 class MadicinePeiceModal {
-  int? id;
+  String? id;
   dynamic pBottel, pInjection, pMedicine, pSerup;
 
   MadicinePeiceModal(

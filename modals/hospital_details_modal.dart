@@ -1,5 +1,5 @@
 class HospitalDetailsModal {
-  int? id;
+  String? id;
   dynamic name, address;
 
   HospitalDetailsModal({this.id, this.name, this.address});

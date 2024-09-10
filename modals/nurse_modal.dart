@@ -1,5 +1,5 @@
 class NurseModal {
-  int? id, age;
+  String? id, age;
   dynamic name,
       experiance,
       gender,
@@ -35,7 +35,7 @@ class NurseModal {
         degree: m1["degree"],
         description: m1["description"],
         experiance: m1["experiance"],
-        address: m1["fees"],
+        address: m1["address"],
         mobile: m1["mobile"],
         password: m1["password"],
       );

@@ -1,5 +1,5 @@
 class DoctorModal {
-  int? id, fees, age, specialist;
+  String? id, fees, age, specialist;
   dynamic doctorName,
       experiance,
       gender,

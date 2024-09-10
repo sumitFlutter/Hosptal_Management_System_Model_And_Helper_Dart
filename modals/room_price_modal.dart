@@ -1,5 +1,5 @@
 class RoomPriceModal {
-  int? id, roomPrice;
+  String? id, roomPrice;
 
   RoomPriceModal({this.id, this.roomPrice});
 

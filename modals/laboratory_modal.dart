@@ -1,5 +1,5 @@
 class LaboratoryModal {
-  int? id, reportTypes;
+  String? id, reportTypes;
   dynamic laboratoryName;
   List<int>? reportTypeList = [];
 

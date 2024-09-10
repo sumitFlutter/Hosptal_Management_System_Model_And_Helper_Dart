@@ -1,5 +1,5 @@
 class UserBookingAppointnentModal {
-  int? id, userName, doctorName, age;
+  String? id, userName, doctorName, age;
   dynamic userContact, weight, gender, address, disease, surgery, date, time;
 
   UserBookingAppointnentModal(
@@ -21,14 +21,14 @@ class UserBookingAppointnentModal {
         id: m1["id"],
         address: m1["address"],
         age: m1["age"],
-        doctorName: m1["doctorName"],
+        doctorName: m1["doctorname"],
         gender: m1["gender"],
         surgery: m1["surgery"],
         disease: m1["disease"],
         date: m1["date"],
         time: m1["time"],
         userContact: m1["usercontact"],
-        userName: m1["userNam"],
+        userName: m1["username"],
         weight: m1["weight"],
       );
 }

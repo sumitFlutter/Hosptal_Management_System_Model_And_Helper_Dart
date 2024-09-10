@@ -1,5 +1,5 @@
 class DoctorSpecialistModal {
-  int? id;
+  String? id;
   dynamic specialist;
 
   DoctorSpecialistModal({this.id, this.specialist});
